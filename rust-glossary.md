@@ -120,6 +120,7 @@ debug                            | 调试                           | 除錯、�
 debugger                         | 调试器                         | 除錯器、偵錯器        |
 device drive                     | 设备驱动                       | 設備驅動程式          |
 directory                        | 目录                           | 目錄              |
+disambiguate                     | (泛型)消歧                     | ?                 | 
 dispatch                         | 分发                           | 分派              |
 diverge function                 | 发散函数                       | 發散函式            |
 diverging functions              | 发散函数                       | 發散函式            |

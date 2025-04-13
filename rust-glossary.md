@@ -278,7 +278,7 @@ object-oriented programming      | 面向对象程序设计               | 物�
 optimization                     | 优化                           | 最佳化                    |
 out-of-bounds accessing          | 越界访问                       | 越界存取                   |
 orphan rule                      | 孤儿规则                       | 孤兒規則                   |
-overflow                         | 溢出，越界                     | 溢出，越界                  |
+overflow                         | （向上）溢出，（向上）越界      | （向上）溢出，（向上）越界  |
 own                              | 占有，拥有                     | 占有，擁有                  |
 owner                            | 所有者，拥有者                 | 所有者，擁有者                |
 ownership                        | 所有权                         | 所有權                    |
@@ -333,6 +333,7 @@ Rustacean                        | （不译）                       | （不�
 rustc                            | （不译）                       | （不譯）           | Rust 语言编译器
 r-value                          | 右值                           | 右值             |
 **S**                            |                                |                |
+saturate                         | 截断至边界                     ||
 scalar                           | 标量，数量                     | 純量，數量          |
 schedule                         | 调度                           | 排程             |
 scope                            | 作用域                         | 作用域            |
@@ -401,6 +402,7 @@ type placeholder                 | 类型占位符                     | 型別�
 type signature                   | 类型标记                       | 型別標誌            |
 **U**                            |                                |             |
 undefined behavior               | 未定义行为                     | 未定義行為       |
+underflow                        | （向下）溢出，（向下）越界      | （向下）溢出，（向下）越界  |
 uninstall                        | 卸载                           | 卸載          |
 unit-like struct                 | 类单元结构体                   | 類單元結構體      |
 unit struct                      | 单元结构体                     | 單元結構體       |
@@ -423,7 +425,7 @@ vtable                           | 虚表                           | 虛表    
 **W**                            |                                |             |
 where clause                     | where 子句，where 从句，where 分句 | where 子句，where 從句，where 分句 | 在数据库的官方手册中多翻译成“子句”，英语语法中翻译成“从句”
 wildcard                         | 通配符                         | 萬用字元          |
-wrap                             | 包裹                           | 包裹              |
+wrap                             | 包裹, (数字溢出时)回绕         | 包裹              |
 wrapped                          | 装包                           | 裝包              |
 wrapper                          | 装包                           | 裝飾器，包裹器         |
 **Y**                            |                                |                 |
